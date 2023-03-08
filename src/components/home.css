@@ -1,0 +1,29 @@
+.nav-row{
+    background-color: rgb(88, 88, 88);
+}
+.logo img{
+    width: 100px;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+.nav-bar li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.nav-bar li:hover{
+    color:rgb(191, 190, 190);
+}
+.content{
+    width: 300px;
+    height: 600px;
+    margin-top: 50px;
+}
